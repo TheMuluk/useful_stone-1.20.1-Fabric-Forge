@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT License"
+
+[[mods]]
+modId = "useful_stone"
+version = "${version}"
+displayName = "Useful Stone"
+authors = "Muluk"
+description = '''
+Fixes small inconsistencies in Minecraft by allowing players to craft blocks like observers, dispensers, and pistons using stone, blackstone, or cobbled deepslate.
+'''
+
+[[dependencies.useful_stone]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.useful_stone]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"

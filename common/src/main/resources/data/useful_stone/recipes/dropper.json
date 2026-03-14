@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "S S",
+    "SRS"
+  ],
+  "key": {
+    "S": { "tag": "minecraft:stone_crafting_materials" },
+    "R": { "item": "minecraft:redstone" }
+  },
+  "result": { "item": "minecraft:dropper" }
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "useful_stone",
+  "version": "${version}",
+  "name": "Useful Stone",
+  "description": "Fixes small inconsistencies in Minecraft by allowing players to craft blocks like observers, dispensers, and pistons using stone, blackstone, or cobbled deepslate.",
+  "authors": [
+    "Muluk"
+  ],
+  "license": "MIT License",
+  "environment": "*",
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}

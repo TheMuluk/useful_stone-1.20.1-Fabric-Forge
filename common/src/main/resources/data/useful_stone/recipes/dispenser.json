@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SIS",
+    "SRS"
+  ],
+  "key": {
+    "S": { "tag": "minecraft:stone_crafting_materials" },
+    "I": { "item": "minecraft:bow" },
+    "R": { "item": "minecraft:redstone" }
+  },
+  "result": { "item": "minecraft:dispenser" }
+}
